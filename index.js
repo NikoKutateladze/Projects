@@ -28,8 +28,6 @@ startAgainBtn.addEventListener("click", () => {
 checkButton.addEventListener("click", () => {
     amountOfAttempts += 1;
 
-    console.log(randomNumber);
-
     if (randomNumber == Number(myNumber.value)) {
         randomNum.textContent = 'YOU WON!';
         alert(`Congrats you guessed the random Number on ${amountOfAttempts} try The page will Refresh automatically`);
